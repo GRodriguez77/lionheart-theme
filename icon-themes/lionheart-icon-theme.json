@@ -1,0 +1,95 @@
+{
+    "fonts": [
+        {
+            "id": "lionheart-icon-font",
+            "src": [
+                {
+                    "format": "woff2",
+                    "path": "../fonts/Lionheart.woff2",
+                }
+            ],
+            "size": "110%",
+            "style": "normal",
+            "weight": "normal"
+        }
+    ],
+    "iconDefinitions": {
+        "root": {
+            "fontCharacter": "\\e914"
+        },
+        "root-opened": {
+            "fontCharacter": "\\e913"
+        },
+        "folder": {
+            "fontCharacter": "\\e90c"
+        },
+        "folder-opened": {
+            "fontCharacter": "\\e90b"
+        },
+        "file": {
+            "fontCharacter": "\\e90a"
+        },
+        "file-compressed": {
+            "fontCharacter": "\\e903"
+        },
+        "file-text": {
+            "fontCharacter": "\\e907"
+        },
+        "file-code": {
+            "fontCharacter": "\\e902"
+        },
+        "file-image": {
+            "fontCharacter": "\\e905"
+        },
+        "file-video": {
+            "fontCharacter": "\\e909"
+        },
+        "file-audio": {
+            "fontCharacter": "\\e901"
+        },
+        "file-markdown": {
+            "fontCharacter": "\\e90f"
+        },
+        "file-script": {
+            "fontCharacter": "\\e906"
+        },
+        "file-font": {
+            "fontCharacter": "\\e904"
+        },
+        "file-vector": {
+            "fontCharacter": "\\e908"
+        },
+        "package": {
+            "fontCharacter": "\\e911"
+        },
+        "package-closed": {
+            "fontCharacter": "\\e910"
+        },
+        "readme": {
+            "fontCharacter": "\\e912"
+        },
+        "license": {
+            "fontCharacter": "\\e90e"
+        },
+        "changelog": {
+            "fontCharacter": "\\e900"
+        },
+        "git": {
+            "fontCharacter": "\\e90d"
+        }
+    },
+    "rootFolder": "root",
+    "rootFolderExpanded": "root-opened",
+    "folder": "folder",
+    "folderExpanded": "folder-opened",
+    "file": "file-text",
+    "fileExtensions": {
+        "jpg": "file-image",
+        "jpeg": "file-image",
+        "png": "file-image",
+        "img": "file-image",
+        "gif": "file-image",
+        "webp": "file-image",
+        "svg": "file-vector"
+    }
+}

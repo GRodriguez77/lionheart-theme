@@ -1,0 +1,29 @@
+{
+    "name": "lionheart-theme",
+    "displayName": "Lionheart Theme",
+    "description": "A theme for the brave and courageous.",
+    "type": "module",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lionheart",
+                "uiTheme": "vs",
+                "path": "./themes/lionheart-color-theme.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "lionheart-icons",
+                "label": "Lionheart",
+                "path": "./icon-themes/lionheart-icon-theme.json"
+            }
+        ]
+    }
+}
